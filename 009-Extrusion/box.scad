@@ -19,8 +19,8 @@ module box(l, w, h, r, thickness) {
         rounded_rectangle(l, w, r);
     scale([1,1,-1])
       translate([0,0,-thickness])
-      linear_extrude(height=h)
-        rounded_rectangle(l-thickness*2, w-thickness*2, r);
+        linear_extrude(height=h)
+          rounded_rectangle(l-thickness*2, w-thickness*2, r);
   }
 }
 
