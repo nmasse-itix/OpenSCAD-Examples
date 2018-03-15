@@ -2,7 +2,7 @@ $fa=1;
 $fs=0.5;
 $fn = 50;
 
-// Place balls inside the bearing groove based on a sample ball provided as
+// Place balls inside the bearing groove, based on a sample ball provided as
 // children
 module place_evenly(n) {
   step = 360 / n;
@@ -12,6 +12,13 @@ module place_evenly(n) {
   }
 }
 
+// Create a ball bearing based on:
+// - outer diameter
+// - inner diameter
+// - ball diameter
+// - width
+// - groove depth (as a percentage of the ball size)
+// - space between balls (as a percentage of the ball size)
 module ball_bearing(od, id, bd, width, groove, space) {
   center_line_radius = (od-id)/4+id/2;
 
