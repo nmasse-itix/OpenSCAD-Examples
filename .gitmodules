@@ -1,0 +1,7 @@
+[submodule "MCAD"]
+	path = 013-PSU-Enclosure/MCAD
+	url = https://github.com/openscad/MCAD.git
+[submodule "013-PSU-Enclosure/OpenSCAD-Pattern-Filling"]
+	path = 013-PSU-Enclosure/OpenSCAD-Pattern-Filling
+	url = https://github.com/nmasse-itix/OpenSCAD-Pattern-Filling.git
+	branch = 1.0
