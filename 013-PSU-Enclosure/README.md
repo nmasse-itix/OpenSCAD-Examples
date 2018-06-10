@@ -6,6 +6,8 @@ The goal of this project was to make an enclosure for my lab-bench power supply,
 
 The problem was that the existing case was made of metal and too small for the additional hardware. This lead to short circuits sometimes.
 
+You can find this project on Thingiverse: https://www.thingiverse.com/thing:2954456
+
 ## Design
 
 __The box ([`box.scad`](box.scad))__:
