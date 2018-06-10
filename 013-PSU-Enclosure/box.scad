@@ -20,11 +20,11 @@ module one_unit(unit_height) {
 
 module three_units(unit_height) {
   rotate([ 90, 0, 0 ]) {
-    translate([ 30 * mm, 0, -epsilon ])
+    translate([ 40 * mm, 0, -epsilon ])
       one_unit(unit_height);
-    translate([ 65 * mm, 0, -epsilon ])
+    translate([ 75 * mm, 0, -epsilon ])
       one_unit(unit_height);
-    translate([ 100 * mm, 0, -epsilon ])
+    translate([ 110 * mm, 0, -epsilon ])
       one_unit(unit_height);
   }
 }

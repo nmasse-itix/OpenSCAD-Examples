@@ -12,7 +12,7 @@ wall_size = 3 * mm;
 round_radius = 3 * mm;
 
 // Vent Parameters (hexagon structure)
-vent_alveolus_size = 8 * mm;
+vent_alveolus_size = 6.5 * mm;
 vent_margin = 1 * mm;
 vent_xstep = cos(30) * (vent_margin + sqrt(3) * vent_alveolus_size / 2);
 vent_ystep = sin(30) * (vent_margin + sqrt(3) * vent_alveolus_size / 2);
