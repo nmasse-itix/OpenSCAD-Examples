@@ -37,7 +37,7 @@ I printed both parts using [a custom Slic3r config](slic3r-config.ini):
 
 ## Bill of Material
 
-- ~250g PLA filament
+- ~400g PLA filament
 - 6x DANIU 4mm Terminal Banana Plug Socket Jack Connectors
 - 3x Geekcreit® 0.28 Inch 2.5V-30V Mini Digital Volt Meter
 - 2x 5mm LED
