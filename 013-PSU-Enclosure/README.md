@@ -44,3 +44,8 @@ I printed both parts using [a custom Slic3r config](slic3r-config.ini):
 - 4x M3 screw
 - an old ATX power supply
 
+## Remaining work
+
+The alveolus vents pattern is maybe a bit to thin/fragile.
+If I need to reprint it, I would increase the `vent_margin` in `common.scad`
+to something like 2 mm and maybe `vent_alveolus_size` to 8 mm.
