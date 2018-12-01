@@ -1,5 +1,8 @@
-[submodule "MCAD"]
+[submodule "MCAD-013"]
 	path = 013-PSU-Enclosure/MCAD
+	url = https://github.com/openscad/MCAD.git
+[submodule "MCAD-014"]
+	path = 014-Bike-Light-Holder/MCAD
 	url = https://github.com/openscad/MCAD.git
 [submodule "013-PSU-Enclosure/OpenSCAD-Pattern-Filling"]
 	path = 013-PSU-Enclosure/OpenSCAD-Pattern-Filling
